@@ -1,0 +1,23 @@
+.foodDiv{
+    border: 1px solid tomato;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+}
+.foodDiv img {
+    width: 250px;
+}
+#food-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#food-detail{
+    justify-content: center;
+}
+
+#food-detail img{
+    width: 250px;
+}
